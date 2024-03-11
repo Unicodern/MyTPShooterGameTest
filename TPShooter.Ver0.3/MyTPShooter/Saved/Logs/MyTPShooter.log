@@ -1,4 +1,4 @@
-﻿Log file open, 03/11/24 11:14:59
+﻿Log file open, 03/11/24 13:26:09
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -14,10 +14,10 @@ LogPakFile: PakFile PathHashIndexSize=85264
 LogPakFile: PakFile FullDirectoryIndexSize=187913
 LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile '../../../MyTPShooter/Content/Paks/MyTPShooter-WindowsNoEditor.pak' (chunk index -1, root '../../../') mounted
 LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:../../../ File:../../../MyTPShooter/Content/Paks/MyTPShooter-WindowsNoEditor.pak)
-LogPakFile: OnPakFileMounted2Time == 0.000029
+LogPakFile: OnPakFileMounted2Time == 0.000471
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 59 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.071858
+LogStats: Stats thread started at 0.198569
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
 LogInit: Display: Loading text-based GConfig....
 LogPluginManager: Mounting plugin Paper2D
@@ -144,7 +144,7 @@ LogInit: Compiled with Visual C++: 19.16.27032.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.27
 LogInit: Command Line: 
-LogInit: Base Directory: F:/Unreal4/Projects/MyTPShooter/Build/WindowsNoEditor/MyTPShooter/Binaries/Win64/
+LogInit: Base Directory: F:/Unreal4/Projects/MyTPShooter/Build/MyTPShooter/TPShooter.Ver0.3/MyTPShooter/Binaries/Win64/
 LogInit: Allocator: binned2
 LogInit: Installed Engine Build: 0
 LogDevObjectVersion: Number of dev versions registered: 29
@@ -198,649 +198,650 @@ LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
 LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Engine.ini]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[r.CustomDepth:3]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Engine.ini]
-[2024.03.11-03.14.59:908][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Engine.ini]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Engine.ini]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
-[2024.03.11-03.14.59:908][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Engine.ini]
-[2024.03.11-03.14.59:913][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2024.03.11-03.14.59:913][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
-[2024.03.11-03.14.59:914][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
-[2024.03.11-03.14.59:914][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
-[2024.03.11-03.14.59:914][  0]LogHAL: Display: Platform has ~ 16 GB [16828317696 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2024.03.11-03.14.59:914][  0]LogInit: Going up to parent DeviceProfile [Windows]
-[2024.03.11-03.14.59:914][  0]LogInit: Going up to parent DeviceProfile []
-[2024.03.11-03.14.59:914][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
-[2024.03.11-03.14.59:914][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.03.11-03.14.59:914][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2024.03.11-03.14.59:915][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2024.03.11-03.14.59:915][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2024.03.11-03.14.59:915][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
-[2024.03.11-03.14.59:915][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
-[2024.03.11-03.14.59:915][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
-[2024.03.11-03.14.59:915][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2024.03.11-03.14.59:915][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2024.03.11-03.14.59:915][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2024.03.11-03.14.59:915][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2024.03.11-03.14.59:915][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Engine.ini]
-[2024.03.11-03.14.59:915][  0]LogInit: Computer: GAMEDREAMER
-[2024.03.11-03.14.59:915][  0]LogInit: User: 唐邦
-[2024.03.11-03.14.59:915][  0]LogInit: CPU Page size=4096, Cores=14
-[2024.03.11-03.14.59:915][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2024.03.11-03.14.59:915][  0]LogMemory: Memory total: Physical=15.7GB (16GB approx)
-[2024.03.11-03.14.59:915][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
-[2024.03.11-03.14.59:915][  0]LogMemory: Process Physical Memory: 86.44 MB used, 86.44 MB peak
-[2024.03.11-03.14.59:915][  0]LogMemory: Process Virtual Memory: 88.49 MB used, 88.49 MB peak
-[2024.03.11-03.14.59:915][  0]LogMemory: Physical Memory: 10562.21 MB used,  5486.52 MB free, 16048.73 MB total
-[2024.03.11-03.14.59:915][  0]LogMemory: Virtual Memory: 134208040.00 MB used,  9687.66 MB free, 134217728.00 MB total
-[2024.03.11-03.14.59:920][  0]LogWindows: WindowsPlatformFeatures enabled
-[2024.03.11-03.15.00:064][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2024.03.11-03.15.00:064][  0]LogInit: Using OS detected language (zh-CN).
-[2024.03.11-03.15.00:064][  0]LogInit: Using OS detected locale (zh-CN).
-[2024.03.11-03.15.00:065][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the language.
-[2024.03.11-03.15.00:065][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the locale.
-[2024.03.11-03.15.00:084][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
-[2024.03.11-03.15.00:093][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2024.03.11-03.15.00:093][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2024.03.11-03.15.00:122][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
-[2024.03.11-03.15.00:125][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2024.03.11-03.15.00:125][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2024.03.11-03.15.00:125][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2024.03.11-03.15.00:125][  0]LogD3D11RHI: D3D11 adapters:
-[2024.03.11-03.15.00:226][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3070 Ti Laptop GPU' (Feature Level 11_0)
-[2024.03.11-03.15.00:226][  0]LogD3D11RHI:       8018/0/8024 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2024.03.11-03.15.00:268][  0]LogD3D11RHI:    1. 'Intel(R) Iris(R) Xe Graphics' (Feature Level 11_0)
-[2024.03.11-03.15.00:268][  0]LogD3D11RHI:       128/0/8024 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2024.03.11-03.15.00:269][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2024.03.11-03.15.00:269][  0]LogD3D11RHI:       0/0/8024 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2024.03.11-03.15.00:333][  0]LogD3D11RHI:    3. 'NVIDIA GeForce RTX 3070 Ti Laptop GPU' (Feature Level 11_0)
-[2024.03.11-03.15.00:333][  0]LogD3D11RHI:       8018/0/8024 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
-[2024.03.11-03.15.00:333][  0]LogD3D11RHI: Chosen D3D11 Adapter:
-[2024.03.11-03.15.00:334][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 3070 Ti Laptop GPU
-[2024.03.11-03.15.00:334][  0]LogD3D11RHI:     VendorId    : 10de
-[2024.03.11-03.15.00:334][  0]LogD3D11RHI:     DeviceId    : 24a0
-[2024.03.11-03.15.00:334][  0]LogD3D11RHI:     SubSysId    : 8a17103c
-[2024.03.11-03.15.00:334][  0]LogD3D11RHI:     Revision    : 00a1
-[2024.03.11-03.15.00:334][  0]LogD3D11RHI:     DedicatedVideoMemory : 8407482368 bytes
-[2024.03.11-03.15.00:334][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
-[2024.03.11-03.15.00:334][  0]LogD3D11RHI:     SharedSystemMemory : 8414158848 bytes
-[2024.03.11-03.15.00:334][  0]LogD3D11RHI:     AdapterLuid : 0 86981
-[2024.03.11-03.15.00:343][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2024.03.11-03.15.00:343][  0]LogD3D11RHI:     GPU DeviceId: 0x24a0 (for the marketing name, search the web for "GPU Device Id")
-[2024.03.11-03.15.00:343][  0]LogWindows: EnumDisplayDevices:
-[2024.03.11-03.15.00:343][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3070 Ti Laptop GPU' (P:1 D:1)
-[2024.03.11-03.15.00:343][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3070 Ti Laptop GPU' (P:0 D:0)
-[2024.03.11-03.15.00:343][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3070 Ti Laptop GPU' (P:0 D:0)
-[2024.03.11-03.15.00:344][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3070 Ti Laptop GPU' (P:0 D:0)
-[2024.03.11-03.15.00:344][  0]LogWindows:    4. 'Intel(R) Iris(R) Xe Graphics' (P:0 D:0)
-[2024.03.11-03.15.00:344][  0]LogWindows:    5. 'Intel(R) Iris(R) Xe Graphics' (P:0 D:0)
-[2024.03.11-03.15.00:344][  0]LogWindows:    6. 'Intel(R) Iris(R) Xe Graphics' (P:0 D:0)
-[2024.03.11-03.15.00:344][  0]LogWindows:    7. 'Intel(R) Iris(R) Xe Graphics' (P:0 D:0)
-[2024.03.11-03.15.00:344][  0]LogWindows:    8. 'VMonitor' (P:0 D:0)
-[2024.03.11-03.15.00:344][  0]LogWindows:    9. 'VMonitor' (P:0 D:0)
-[2024.03.11-03.15.00:345][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2024.03.11-03.15.00:345][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3070 Ti Laptop GPU
-[2024.03.11-03.15.00:345][  0]LogD3D11RHI:   Driver Version: 551.23 (internal:31.0.15.5123, unified:551.23)
-[2024.03.11-03.15.00:345][  0]LogD3D11RHI:      Driver Date: 1-18-2024
-[2024.03.11-03.15.00:345][  0]LogRHI: Texture pool is 5612 MB (70% of 8018 MB)
-[2024.03.11-03.15.00:345][  0]LogD3D11RHI: Creating D3DDevice using adapter:
-[2024.03.11-03.15.00:345][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 3070 Ti Laptop GPU
-[2024.03.11-03.15.00:345][  0]LogD3D11RHI:     VendorId    : 10de
-[2024.03.11-03.15.00:345][  0]LogD3D11RHI:     DeviceId    : 24a0
-[2024.03.11-03.15.00:345][  0]LogD3D11RHI:     SubSysId    : 8a17103c
-[2024.03.11-03.15.00:345][  0]LogD3D11RHI:     Revision    : 00a1
-[2024.03.11-03.15.00:345][  0]LogD3D11RHI:     DedicatedVideoMemory : 8407482368 bytes
-[2024.03.11-03.15.00:345][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
-[2024.03.11-03.15.00:345][  0]LogD3D11RHI:     SharedSystemMemory : 8414158848 bytes
-[2024.03.11-03.15.00:345][  0]LogD3D11RHI:     AdapterLuid : 0 86981
-[2024.03.11-03.15.00:408][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2024.03.11-03.15.00:409][  0]LogD3D11RHI: Async texture creation enabled
-[2024.03.11-03.15.00:409][  0]LogD3D11RHI: Array index from any shader is supported
-[2024.03.11-03.15.00:442][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2024.03.11-03.15.00:530][  0]LogRHI: GeForceNow SDK initialized: 1
-[2024.03.11-03.15.00:534][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
-[2024.03.11-03.15.00:538][  0]LogShaderLibrary: Display: Using ../../../MyTPShooter/Content/ShaderArchive-Global-PCD3D_SM5.ushaderbytecode for material shader code. Total 1951 unique shaders.
-[2024.03.11-03.15.00:538][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Global
-[2024.03.11-03.15.00:538][  0]LogShaderLibrary: Display: Logical shader library 'Global' has been created, components 1
-[2024.03.11-03.15.00:538][  0]LogTemp: Warning: Clearing the OS Cache
-[2024.03.11-03.15.00:539][  0]LogODSC: ODSC Thread active.
-[2024.03.11-03.15.00:548][  0]LogPakFile: New pak file ../../../MyTPShooter/Content/Paks/MyTPShooter-WindowsNoEditor.pak added to pak precacher.
-[2024.03.11-03.15.00:572][  0]LogSlate: Using FreeType 2.10.0
-[2024.03.11-03.15.00:574][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2024.03.11-03.15.00:628][  0]LogShaderLibrary: Display: Using ../../../MyTPShooter/Content/ShaderArchive-MyTPShooter-PCD3D_SM5.ushaderbytecode for material shader code. Total 7725 unique shaders.
-[2024.03.11-03.15.00:628][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library MyTPShooter
-[2024.03.11-03.15.00:628][  0]LogShaderLibrary: Display: Logical shader library 'MyTPShooter' has been created, components 1
-[2024.03.11-03.15.00:628][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
-[2024.03.11-03.15.00:630][  0]LogShaderLibrary: Display: Using ../../../MyTPShooter/Content/ShaderArchive-MyTPShooter-PCD3D_SM5.ushaderbytecode for material shader code. Total 7725 unique shaders.
-[2024.03.11-03.15.00:630][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library MyTPShooter
-[2024.03.11-03.15.00:630][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
-[2024.03.11-03.15.00:630][  0]LogRHI: Display: Failed to open default shader pipeline cache for MyTPShooter using shader platform 0.
-[2024.03.11-03.15.00:630][  0]LogInit: Using OS detected language (zh-CN).
-[2024.03.11-03.15.00:630][  0]LogInit: Using OS detected locale (zh-CN).
-[2024.03.11-03.15.00:630][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the language.
-[2024.03.11-03.15.00:630][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the locale.
-[2024.03.11-03.15.00:633][  0]LogTextLocalizationManager: Compacting localization data took   1.05ms
-[2024.03.11-03.15.00:633][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
-[2024.03.11-03.15.00:761][  0]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
-[2024.03.11-03.15.00:763][  0]LogPackageLocalizationCache: Processed 26 localized package path(s) for 1 prioritized culture(s) in 0.000181 seconds
-[2024.03.11-03.15.00:770][  0]LogSerialization: Display: AllowBulkDataInIoStore: 'true'
-[2024.03.11-03.15.00:771][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
-[2024.03.11-03.15.00:771][  0]LogInit: Active device profile: [000001CA1E914480][000001CA1B469250 49] WindowsNoEditor
-[2024.03.11-03.15.00:771][  0]LogInit: Profiles: [000001CA1E914780][000001CA1B464930 49] Windows, [000001CA1E914480][000001CA1B469250 49] WindowsNoEditor, 
-[2024.03.11-03.15.00:794][  0]LogNetVersion: MyTPShooter 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 2857077039)
-[2024.03.11-03.15.00:857][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2024.03.11-03.15.00:857][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2024.03.11-03.15.00:858][  0]LogHMD: PokeAHoleMaterial loaded successfully
-[2024.03.11-03.15.00:917][  0]LogMoviePlayer: Initializing movie player
-[2024.03.11-03.15.00:920][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 2E3BC2EC4949191319A0589F73805C31 | Instance: EE5350F74DBB4F4DA2621096AC9BD079 (GAMEDREAMER-20800).
-[2024.03.11-03.15.00:924][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2024.03.11-03.15.00:924][  0]LogOcInput: OculusInput pre-init called
-[2024.03.11-03.15.00:928][  0]LogUObjectArray: 15888 objects as part of root set at end of initial load.
-[2024.03.11-03.15.00:928][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
-[2024.03.11-03.15.00:928][  0]LogUObjectAllocator: 3282056 out of 0 bytes used by permanent object pool.
-[2024.03.11-03.15.00:928][  0]LogUObjectArray: CloseDisregardForGC: 15888/15888 objects in disregard for GC pool
-[2024.03.11-03.15.00:932][  0]LogEngine: Initializing Engine...
-[2024.03.11-03.15.00:971][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
-[2024.03.11-03.15.00:971][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2024.03.11-03.15.00:974][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
-[2024.03.11-03.15.01:025][  0]LogInit: Initializing FReadOnlyCVARCache
-[2024.03.11-03.15.01:025][  0]LogAudio: Display: Initializing Audio Device Manager...
-[2024.03.11-03.15.01:026][  0]LogAudio: Display: Loading Default Audio Settings Objects...
-[2024.03.11-03.15.01:026][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
-[2024.03.11-03.15.01:026][  0]LogAudio: Display: Audio Device Manager Initialized
-[2024.03.11-03.15.01:026][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
-[2024.03.11-03.15.01:027][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2024.03.11-03.15.01:029][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2024.03.11-03.15.01:029][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2024.03.11-03.15.01:029][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2024.03.11-03.15.01:029][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2024.03.11-03.15.01:029][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2024.03.11-03.15.01:029][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2024.03.11-03.15.01:029][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2024.03.11-03.15.01:030][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
-[2024.03.11-03.15.01:030][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
-[2024.03.11-03.15.01:030][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
-[2024.03.11-03.15.01:030][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2024.03.11-03.15.01:104][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2024.03.11-03.15.01:113][  0]LogAudioMixer: Display: 0: FrontLeft
-[2024.03.11-03.15.01:113][  0]LogAudioMixer: Display: 1: FrontRight
-[2024.03.11-03.15.01:357][  0]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
-[2024.03.11-03.15.01:361][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2024.03.11-03.15.01:362][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2024.03.11-03.15.01:362][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2024.03.11-03.15.01:364][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2024.03.11-03.15.01:364][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
-[2024.03.11-03.15.01:364][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
-[2024.03.11-03.15.01:365][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
-[2024.03.11-03.15.01:365][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
-[2024.03.11-03.15.01:365][  0]LogInit: FAudioDevice initialized.
-[2024.03.11-03.15.01:366][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2024.03.11-03.15.01:366][  0]LogInit: Texture streaming: Enabled
-[2024.03.11-03.15.01:387][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
-[2024.03.11-03.15.01:388][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2024.03.11-03.15.01:390][  0]LogInit: Display: Game Engine Initialized.
-[2024.03.11-03.15.01:391][  0]LogInit: Display: Starting Game.
-[2024.03.11-03.15.01:391][  0]LogNet: Browse: /Game/Maps/LevelPrototype_Training?Name=Player
-[2024.03.11-03.15.01:392][  0]LogLoad: LoadMap: /Game/Maps/LevelPrototype_Training?Name=Player
-[2024.03.11-03.15.01:392][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
-[2024.03.11-03.15.01:394][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2024.03.11-03.15.01:394][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2024.03.11-03.15.01:398][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
-[2024.03.11-03.15.01:400][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
-[2024.03.11-03.15.01:720][  0]LogPakFile: Precache HighWater 16MB
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Engine.ini]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[r.CustomDepth:3]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Engine.ini]
+[2024.03.11-05.26.09:367][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Engine.ini]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Engine.ini]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2024.03.11-05.26.09:367][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Engine.ini]
+[2024.03.11-05.26.09:374][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2024.03.11-05.26.09:374][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2024.03.11-05.26.09:375][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2024.03.11-05.26.09:375][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2024.03.11-05.26.09:375][  0]LogHAL: Display: Platform has ~ 16 GB [16828317696 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.03.11-05.26.09:375][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2024.03.11-05.26.09:375][  0]LogInit: Going up to parent DeviceProfile []
+[2024.03.11-05.26.09:375][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2024.03.11-05.26.09:375][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2024.03.11-05.26.09:376][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2024.03.11-05.26.09:376][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../MyTPShooter/Saved/Config/WindowsNoEditor/Engine.ini]
+[2024.03.11-05.26.09:376][  0]LogInit: Computer: GAMEDREAMER
+[2024.03.11-05.26.09:376][  0]LogInit: User: 唐邦
+[2024.03.11-05.26.09:376][  0]LogInit: CPU Page size=4096, Cores=14
+[2024.03.11-05.26.09:376][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.03.11-05.26.09:376][  0]LogMemory: Memory total: Physical=15.7GB (16GB approx)
+[2024.03.11-05.26.09:376][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2024.03.11-05.26.09:376][  0]LogMemory: Process Physical Memory: 88.43 MB used, 88.43 MB peak
+[2024.03.11-05.26.09:376][  0]LogMemory: Process Virtual Memory: 88.63 MB used, 88.63 MB peak
+[2024.03.11-05.26.09:376][  0]LogMemory: Physical Memory: 9366.66 MB used,  6682.07 MB free, 16048.73 MB total
+[2024.03.11-05.26.09:376][  0]LogMemory: Virtual Memory: 134205440.00 MB used,  12286.32 MB free, 134217728.00 MB total
+[2024.03.11-05.26.09:379][  0]LogWindows: WindowsPlatformFeatures enabled
+[2024.03.11-05.26.09:448][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2024.03.11-05.26.09:451][  0]LogInit: Using OS detected language (zh-CN).
+[2024.03.11-05.26.09:451][  0]LogInit: Using OS detected locale (zh-CN).
+[2024.03.11-05.26.09:452][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the language.
+[2024.03.11-05.26.09:452][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the locale.
+[2024.03.11-05.26.09:474][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.03.11-05.26.09:489][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2024.03.11-05.26.09:489][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.03.11-05.26.09:506][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2024.03.11-05.26.09:515][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.03.11-05.26.09:515][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2024.03.11-05.26.09:515][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2024.03.11-05.26.09:515][  0]LogD3D11RHI: D3D11 adapters:
+[2024.03.11-05.26.09:621][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3070 Ti Laptop GPU' (Feature Level 11_0)
+[2024.03.11-05.26.09:621][  0]LogD3D11RHI:       8018/0/8024 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2024.03.11-05.26.09:722][  0]LogD3D11RHI:    1. 'Intel(R) Iris(R) Xe Graphics' (Feature Level 11_0)
+[2024.03.11-05.26.09:722][  0]LogD3D11RHI:       128/0/8024 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2024.03.11-05.26.09:726][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.03.11-05.26.09:726][  0]LogD3D11RHI:       0/0/8024 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.03.11-05.26.09:787][  0]LogD3D11RHI:    3. 'NVIDIA GeForce RTX 3070 Ti Laptop GPU' (Feature Level 11_0)
+[2024.03.11-05.26.09:787][  0]LogD3D11RHI:       8018/0/8024 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2024.03.11-05.26.09:787][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2024.03.11-05.26.09:787][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 3070 Ti Laptop GPU
+[2024.03.11-05.26.09:787][  0]LogD3D11RHI:     VendorId    : 10de
+[2024.03.11-05.26.09:787][  0]LogD3D11RHI:     DeviceId    : 24a0
+[2024.03.11-05.26.09:787][  0]LogD3D11RHI:     SubSysId    : 8a17103c
+[2024.03.11-05.26.09:787][  0]LogD3D11RHI:     Revision    : 00a1
+[2024.03.11-05.26.09:787][  0]LogD3D11RHI:     DedicatedVideoMemory : 8407482368 bytes
+[2024.03.11-05.26.09:787][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.03.11-05.26.09:787][  0]LogD3D11RHI:     SharedSystemMemory : 8414158848 bytes
+[2024.03.11-05.26.09:787][  0]LogD3D11RHI:     AdapterLuid : 0 86981
+[2024.03.11-05.26.09:795][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.03.11-05.26.09:795][  0]LogD3D11RHI:     GPU DeviceId: 0x24a0 (for the marketing name, search the web for "GPU Device Id")
+[2024.03.11-05.26.09:795][  0]LogWindows: EnumDisplayDevices:
+[2024.03.11-05.26.09:796][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3070 Ti Laptop GPU' (P:1 D:1)
+[2024.03.11-05.26.09:796][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3070 Ti Laptop GPU' (P:0 D:0)
+[2024.03.11-05.26.09:796][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3070 Ti Laptop GPU' (P:0 D:0)
+[2024.03.11-05.26.09:796][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3070 Ti Laptop GPU' (P:0 D:0)
+[2024.03.11-05.26.09:796][  0]LogWindows:    4. 'Intel(R) Iris(R) Xe Graphics' (P:0 D:0)
+[2024.03.11-05.26.09:796][  0]LogWindows:    5. 'Intel(R) Iris(R) Xe Graphics' (P:0 D:0)
+[2024.03.11-05.26.09:796][  0]LogWindows:    6. 'Intel(R) Iris(R) Xe Graphics' (P:0 D:0)
+[2024.03.11-05.26.09:797][  0]LogWindows:    7. 'Intel(R) Iris(R) Xe Graphics' (P:0 D:0)
+[2024.03.11-05.26.09:797][  0]LogWindows:    8. 'VMonitor' (P:0 D:0)
+[2024.03.11-05.26.09:797][  0]LogWindows:    9. 'VMonitor' (P:0 D:0)
+[2024.03.11-05.26.09:797][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2024.03.11-05.26.09:797][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3070 Ti Laptop GPU
+[2024.03.11-05.26.09:797][  0]LogD3D11RHI:   Driver Version: 551.23 (internal:31.0.15.5123, unified:551.23)
+[2024.03.11-05.26.09:797][  0]LogD3D11RHI:      Driver Date: 1-18-2024
+[2024.03.11-05.26.09:797][  0]LogRHI: Texture pool is 5612 MB (70% of 8018 MB)
+[2024.03.11-05.26.09:797][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2024.03.11-05.26.09:797][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 3070 Ti Laptop GPU
+[2024.03.11-05.26.09:797][  0]LogD3D11RHI:     VendorId    : 10de
+[2024.03.11-05.26.09:797][  0]LogD3D11RHI:     DeviceId    : 24a0
+[2024.03.11-05.26.09:797][  0]LogD3D11RHI:     SubSysId    : 8a17103c
+[2024.03.11-05.26.09:797][  0]LogD3D11RHI:     Revision    : 00a1
+[2024.03.11-05.26.09:797][  0]LogD3D11RHI:     DedicatedVideoMemory : 8407482368 bytes
+[2024.03.11-05.26.09:797][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.03.11-05.26.09:797][  0]LogD3D11RHI:     SharedSystemMemory : 8414158848 bytes
+[2024.03.11-05.26.09:797][  0]LogD3D11RHI:     AdapterLuid : 0 86981
+[2024.03.11-05.26.09:861][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2024.03.11-05.26.09:862][  0]LogD3D11RHI: Async texture creation enabled
+[2024.03.11-05.26.09:862][  0]LogD3D11RHI: Array index from any shader is supported
+[2024.03.11-05.26.09:894][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2024.03.11-05.26.09:939][  0]LogRHI: GeForceNow SDK initialized: 1
+[2024.03.11-05.26.09:940][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2024.03.11-05.26.09:944][  0]LogShaderLibrary: Display: Using ../../../MyTPShooter/Content/ShaderArchive-Global-PCD3D_SM5.ushaderbytecode for material shader code. Total 1951 unique shaders.
+[2024.03.11-05.26.09:944][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Global
+[2024.03.11-05.26.09:944][  0]LogShaderLibrary: Display: Logical shader library 'Global' has been created, components 1
+[2024.03.11-05.26.09:945][  0]LogTemp: Warning: Clearing the OS Cache
+[2024.03.11-05.26.09:945][  0]LogODSC: ODSC Thread active.
+[2024.03.11-05.26.09:954][  0]LogPakFile: New pak file ../../../MyTPShooter/Content/Paks/MyTPShooter-WindowsNoEditor.pak added to pak precacher.
+[2024.03.11-05.26.09:979][  0]LogSlate: Using FreeType 2.10.0
+[2024.03.11-05.26.09:980][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.03.11-05.26.10:035][  0]LogShaderLibrary: Display: Using ../../../MyTPShooter/Content/ShaderArchive-MyTPShooter-PCD3D_SM5.ushaderbytecode for material shader code. Total 7725 unique shaders.
+[2024.03.11-05.26.10:035][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library MyTPShooter
+[2024.03.11-05.26.10:035][  0]LogShaderLibrary: Display: Logical shader library 'MyTPShooter' has been created, components 1
+[2024.03.11-05.26.10:035][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
+[2024.03.11-05.26.10:036][  0]LogShaderLibrary: Display: Using ../../../MyTPShooter/Content/ShaderArchive-MyTPShooter-PCD3D_SM5.ushaderbytecode for material shader code. Total 7725 unique shaders.
+[2024.03.11-05.26.10:036][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library MyTPShooter
+[2024.03.11-05.26.10:036][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
+[2024.03.11-05.26.10:036][  0]LogRHI: Display: Failed to open default shader pipeline cache for MyTPShooter using shader platform 0.
+[2024.03.11-05.26.10:036][  0]LogRHI: Display: Failed to open default shader pipeline cache for MyTPShooter using shader platform 0.
+[2024.03.11-05.26.10:036][  0]LogInit: Using OS detected language (zh-CN).
+[2024.03.11-05.26.10:036][  0]LogInit: Using OS detected locale (zh-CN).
+[2024.03.11-05.26.10:036][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the language.
+[2024.03.11-05.26.10:036][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the locale.
+[2024.03.11-05.26.10:039][  0]LogTextLocalizationManager: Compacting localization data took   1.04ms
+[2024.03.11-05.26.10:039][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
+[2024.03.11-05.26.10:165][  0]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2024.03.11-05.26.10:169][  0]LogPackageLocalizationCache: Processed 26 localized package path(s) for 1 prioritized culture(s) in 0.000657 seconds
+[2024.03.11-05.26.10:177][  0]LogSerialization: Display: AllowBulkDataInIoStore: 'true'
+[2024.03.11-05.26.10:178][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2024.03.11-05.26.10:179][  0]LogInit: Active device profile: [000002506CD36580][00000250629D24A0 49] WindowsNoEditor
+[2024.03.11-05.26.10:179][  0]LogInit: Profiles: [000002506CD36880][000002506C4ADB70 49] Windows, [000002506CD36580][00000250629D24A0 49] WindowsNoEditor, 
+[2024.03.11-05.26.10:204][  0]LogNetVersion: MyTPShooter 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 2857077039)
+[2024.03.11-05.26.10:272][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.03.11-05.26.10:273][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.03.11-05.26.10:273][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2024.03.11-05.26.10:320][  0]LogMoviePlayer: Initializing movie player
+[2024.03.11-05.26.10:322][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: E080926D490630E1C9A1C4A62238C6B7 | Instance: 3313BC5A4C27829F8725568F68C188C0 (GAMEDREAMER-27836).
+[2024.03.11-05.26.10:326][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.03.11-05.26.10:327][  0]LogOcInput: OculusInput pre-init called
+[2024.03.11-05.26.10:331][  0]LogUObjectArray: 15888 objects as part of root set at end of initial load.
+[2024.03.11-05.26.10:331][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2024.03.11-05.26.10:331][  0]LogUObjectAllocator: 3282056 out of 0 bytes used by permanent object pool.
+[2024.03.11-05.26.10:331][  0]LogUObjectArray: CloseDisregardForGC: 15888/15888 objects in disregard for GC pool
+[2024.03.11-05.26.10:333][  0]LogEngine: Initializing Engine...
+[2024.03.11-05.26.10:340][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2024.03.11-05.26.10:340][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.03.11-05.26.10:342][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2024.03.11-05.26.10:395][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.03.11-05.26.10:395][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2024.03.11-05.26.10:395][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2024.03.11-05.26.10:398][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2024.03.11-05.26.10:398][  0]LogAudio: Display: Audio Device Manager Initialized
+[2024.03.11-05.26.10:398][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2024.03.11-05.26.10:399][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.11-05.26.10:399][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.11-05.26.10:399][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.11-05.26.10:399][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.11-05.26.10:399][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.11-05.26.10:399][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.11-05.26.10:399][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.11-05.26.10:399][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.11-05.26.10:399][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.11-05.26.10:399][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.11-05.26.10:399][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.11-05.26.10:399][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2024.03.11-05.26.10:414][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2024.03.11-05.26.10:423][  0]LogAudioMixer: Display: 0: FrontLeft
+[2024.03.11-05.26.10:423][  0]LogAudioMixer: Display: 1: FrontRight
+[2024.03.11-05.26.10:950][  0]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2024.03.11-05.26.10:952][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.11-05.26.10:953][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.11-05.26.10:953][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.11-05.26.10:955][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.03.11-05.26.10:955][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.03.11-05.26.10:955][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.03.11-05.26.10:956][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.03.11-05.26.10:956][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.03.11-05.26.10:956][  0]LogInit: FAudioDevice initialized.
+[2024.03.11-05.26.10:958][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.03.11-05.26.10:959][  0]LogInit: Texture streaming: Enabled
+[2024.03.11-05.26.10:986][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2024.03.11-05.26.10:988][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-05.26.10:992][  0]LogInit: Display: Game Engine Initialized.
+[2024.03.11-05.26.10:994][  0]LogInit: Display: Starting Game.
+[2024.03.11-05.26.10:994][  0]LogNet: Browse: /Game/Maps/LevelPrototype_Training?Name=Player
+[2024.03.11-05.26.10:995][  0]LogLoad: LoadMap: /Game/Maps/LevelPrototype_Training?Name=Player
+[2024.03.11-05.26.10:995][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2024.03.11-05.26.10:998][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-05.26.10:999][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-05.26.11:007][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.11-05.26.11:012][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.03.11-05.26.11:373][  0]LogPakFile: Precache HighWater 16MB
 
-[2024.03.11-03.15.01:731][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'LevelPrototype_Training'.
-[2024.03.11-03.15.01:733][  0]LogAIModule: Creating AISystem for world LevelPrototype_Training
-[2024.03.11-03.15.01:733][  0]LogLoad: Game class is 'TPShooterGameMode_C'
-[2024.03.11-03.15.01:750][  0]LogWorld: Bringing World /Game/Maps/LevelPrototype_Training.LevelPrototype_Training up for play (max tick rate 0) at 2024.03.11-11.15.01
-[2024.03.11-03.15.01:755][  0]LogWorld: Bringing up level for play took: 0.020938
-[2024.03.11-03.15.01:760][  0]AnimBlueprintLog: Warning: SLOTNODE: 'Equip' in animation instance class ABP_TPShooter_C already exists. Remove duplicates from the animation graph for this class.
-[2024.03.11-03.15.01:770][  0]LogActor: Warning: BP_Weapon_Pistol_C /Game/Maps/LevelPrototype_Training.LevelPrototype_Training:PersistentLevel.BP_Weapon_Pistol_C_2147482435 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2024.03.11-03.15.01:772][  0]LogActor: Warning: BP_BaseWeapon_C /Game/Maps/LevelPrototype_Training.LevelPrototype_Training:PersistentLevel.BP_BaseWeapon_C_2147482433 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2024.03.11-03.15.01:772][  0]LogActor: Warning: BP_Weapon_AR_C /Game/Maps/LevelPrototype_Training.LevelPrototype_Training:PersistentLevel.BP_Weapon_AR_C_2147482431 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2024.03.11-03.15.01:772][  0]LogActor: Warning: BP_Weapon_Test1_C /Game/Maps/LevelPrototype_Training.LevelPrototype_Training:PersistentLevel.BP_Weapon_Test1_C_2147482429 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2024.03.11-03.15.01:776][  0]LogLoad: Took 0.384115 seconds to LoadMap(/Game/Maps/LevelPrototype_Training)
-[2024.03.11-03.15.01:780][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../MyTPShooter/Content/_Game/Assets/Fonts/headhumanboldcond.ufont' (82K)
-[2024.03.11-03.15.01:816][  0]LogSlate: Took 0.000761 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2024.03.11-03.15.01:830][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1).
-[2024.03.11-03.15.01:830][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
-[2024.03.11-03.15.01:830][  0]LogPakFile: AllPaks IndexSizes: DirectoryHashSize=603308, PathHashSize=16, EntriesSize=131072, TotalSize=734396
-[2024.03.11-03.15.01:830][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
-[2024.03.11-03.15.01:830][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
-[2024.03.11-03.15.01:830][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
-[2024.03.11-03.15.01:830][  0]LogLoad: (Engine Initialization) Total time: 2.21 seconds
-[2024.03.11-03.15.01:945][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2024.03.11-03.15.04:131][236]LogNiagara: Niagara Effect stalled GT for 0.7029 ms. Component(NiagaraComponent /Game/Maps/LevelPrototype_Training.LevelPrototype_Training:PersistentLevel.WorldSettings_1.NiagaraComponent_2147482387) System(NiagaraSystem /Game/A_Surface_Footstep/Niagara_FX/ParticleSystems/PSN_General1_Surface.PSN_General1_Surface)
-[2024.03.11-03.15.09:335][951]Closing by request
-[2024.03.11-03.15.09:337][951]LogWindows: FPlatformMisc::RequestExit(0)
-[2024.03.11-03.15.09:337][951]LogWindows: FPlatformMisc::RequestExitWithStatus(0, 0)
-[2024.03.11-03.15.09:337][951]LogCore: Engine exit requested (reason: Win RequestExit)
-[2024.03.11-03.15.09:341][952]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
-[2024.03.11-03.15.09:341][952]LogInit: Display: PreExit Game.
-[2024.03.11-03.15.09:345][952]LogWorld: BeginTearingDown for /Game/Maps/LevelPrototype_Training
-[2024.03.11-03.15.09:347][952]LogWorld: UWorld::CleanupWorld for LevelPrototype_Training, bSessionEnded=true, bCleanupResources=true
-[2024.03.11-03.15.09:348][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2024.03.11-03.15.09:982][952]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
-[2024.03.11-03.15.09:984][952]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
-[2024.03.11-03.15.09:984][952]LogAudio: Display: Audio Device unregistered from world 'LevelPrototype_Training'.
-[2024.03.11-03.15.10:031][952]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
-[2024.03.11-03.15.10:031][952]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
-[2024.03.11-03.15.10:051][952]LogAudio: Display: Audio Device Manager Shutdown
-[2024.03.11-03.15.10:051][952]LogSlate: Request Window 'MyTPShooter (64-bit Development PCD3D_SM5) ' being destroyed
-[2024.03.11-03.15.10:055][952]LogSlate: Window 'MyTPShooter (64-bit Development PCD3D_SM5) ' being destroyed
-[2024.03.11-03.15.10:072][952]LogExit: Preparing to exit.
-[2024.03.11-03.15.10:072][952]LogMoviePlayer: Shutting down movie player
-[2024.03.11-03.15.10:077][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2024.03.11-03.15.10:086][952]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2024.03.11-03.15.10:087][952]LogExit: Game engine shut down
-[2024.03.11-03.15.10:129][952]LogExit: Object subsystem successfully closed.
-[2024.03.11-03.15.10:146][952]LogModuleManager: Shutting down and abandoning module AutomationController (360)
-[2024.03.11-03.15.10:146][952]LogModuleManager: Shutting down and abandoning module AutomationWorker (358)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module Voice (356)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module AIModule (354)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module GameplayDebugger (353)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module NavigationSystem (351)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (348)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module WebMMedia (346)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module OpenXRInput (344)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module OculusMR (342)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (340)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (338)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (336)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (334)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module CharacterAI (332)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module PlanarCut (330)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module SessionServices (328)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module LiveCoding (326)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module LevelSequence (324)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (322)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module MovieScene (320)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (318)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (316)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module AudioMixerCore (315)
-[2024.03.11-03.15.10:147][952]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (312)
-[2024.03.11-03.15.10:148][952]LogModuleManager: Shutting down and abandoning module ProfilerService (310)
-[2024.03.11-03.15.10:196][952]LogModuleManager: Shutting down and abandoning module TaskGraph (308)
-[2024.03.11-03.15.10:197][952]LogModuleManager: Shutting down and abandoning module Synthesis (306)
-[2024.03.11-03.15.10:197][952]LogModuleManager: Shutting down and abandoning module TakeMovieScene (304)
-[2024.03.11-03.15.10:197][952]LogModuleManager: Shutting down and abandoning module LiveLinkMovieScene (302)
-[2024.03.11-03.15.10:197][952]LogModuleManager: Shutting down and abandoning module LiveLinkComponents (300)
-[2024.03.11-03.15.10:197][952]LogModuleManager: Shutting down and abandoning module LiveLink (298)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module OculusInput (296)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (294)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module GooglePAD (292)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module CableComponent (288)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module AudioCapture (286)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (285)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module AssetTags (282)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (280)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module AppleImageUtils (278)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module AndroidPermission (276)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (274)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module MediaCompositing (272)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module ImgMedia (270)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (268)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (266)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (264)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (262)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (260)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (258)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module MotoSynth (256)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module ChaosNiagara (254)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (252)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (250)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module EditableMesh (248)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module MeshConversion (246)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module DynamicMesh (244)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (242)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module GeometricObjects (240)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module BackChannel (238)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module AutomationUtils (236)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (234)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module GeometryCache (232)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module UObjectPlugin (230)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (228)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module TemplateSequence (226)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module MyTPShooter (224)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (222)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (220)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module SoundFields (218)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (216)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (212)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module ActorSequence (210)
-[2024.03.11-03.15.10:932][952]LogModuleManager: Shutting down and abandoning module UdpMessaging (208)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module TcpMessaging (206)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (204)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (202)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (200)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (198)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (196)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (194)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (192)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (190)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (188)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module MagicLeapController (186)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (184)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module MagicLeapAR (182)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (180)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (178)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module Niagara (176)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module SignalProcessing (175)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module NiagaraCore (172)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module FacialAnimation (170)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module SignificanceManager (168)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module AnimationSharing (166)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module GameplayCameras (164)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (162)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module Paper2D (160)
-[2024.03.11-03.15.10:933][952]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (158)
-[2024.03.11-03.15.10:934][952]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (156)
-[2024.03.11-03.15.10:934][952]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (154)
-[2024.03.11-03.15.10:934][952]LogModuleManager: Shutting down and abandoning module PacketHandler (152)
-[2024.03.11-03.15.10:934][952]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (150)
-[2024.03.11-03.15.10:934][952]LogModuleManager: Shutting down and abandoning module MediaAssets (148)
-[2024.03.11-03.15.10:934][952]LogModuleManager: Shutting down and abandoning module Overlay (146)
-[2024.03.11-03.15.10:934][952]LogModuleManager: Shutting down and abandoning module FunctionalTesting (144)
-[2024.03.11-03.15.10:934][952]LogModuleManager: Shutting down and abandoning module MessageLog (142)
-[2024.03.11-03.15.10:935][952]LogModuleManager: Shutting down and abandoning module UMG (140)
-[2024.03.11-03.15.10:935][952]LogModuleManager: Shutting down and abandoning module SlateReflector (138)
-[2024.03.11-03.15.10:935][952]LogModuleManager: Shutting down and abandoning module Slate (136)
-[2024.03.11-03.15.10:935][952]LogModuleManager: Shutting down and abandoning module SlateCore (134)
-[2024.03.11-03.15.10:936][952]LogModuleManager: Shutting down and abandoning module MRMesh (132)
-[2024.03.11-03.15.10:936][952]LogModuleManager: Shutting down and abandoning module Messaging (130)
-[2024.03.11-03.15.10:936][952]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (128)
-[2024.03.11-03.15.10:936][952]LogModuleManager: Shutting down and abandoning module XAudio2 (126)
-[2024.03.11-03.15.10:936][952]LogModuleManager: Shutting down and abandoning module Networking (124)
-[2024.03.11-03.15.10:936][952]LogModuleManager: Shutting down and abandoning module Core (122)
-[2024.03.11-03.15.10:936][952]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (120)
-[2024.03.11-03.15.10:936][952]LogModuleManager: Shutting down and abandoning module ImageWrapper (116)
-[2024.03.11-03.15.10:936][952]LogModuleManager: Shutting down and abandoning module D3D11RHI (114)
-[2024.03.11-03.15.10:936][952]LogModuleManager: Shutting down and abandoning module InputCore (112)
-[2024.03.11-03.15.10:936][952]LogModuleManager: Shutting down and abandoning module Settings (110)
-[2024.03.11-03.15.10:936][952]LogModuleManager: Shutting down and abandoning module PhysXCooking (108)
-[2024.03.11-03.15.10:936][952]LogModuleManager: Shutting down and abandoning module Chaos (106)
-[2024.03.11-03.15.10:936][952]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (104)
-[2024.03.11-03.15.10:936][952]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (103)
-[2024.03.11-03.15.10:936][952]LogModuleManager: Shutting down and abandoning module AVEncoder (102)
-[2024.03.11-03.15.10:936][952]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (98)
-[2024.03.11-03.15.10:936][952]LogModuleManager: Shutting down and abandoning module SteamVRInput (96)
-[2024.03.11-03.15.10:936][952]LogModuleManager: Shutting down and abandoning module SteamVR (94)
-[2024.03.11-03.15.10:937][952]LogHMD: Freeing OpenVRDLLHandle.
-[2024.03.11-03.15.10:937][952]LogModuleManager: Shutting down and abandoning module OpenXRHandTracking (92)
-[2024.03.11-03.15.10:937][952]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2024.03.11-03.15.10:937][952]LogModuleManager: Shutting down and abandoning module OpenXRAR (90)
-[2024.03.11-03.15.10:937][952]LogModuleManager: Shutting down and abandoning module AugmentedReality (89)
-[2024.03.11-03.15.10:937][952]LogModuleManager: Shutting down and abandoning module OpenXRHMD (86)
-[2024.03.11-03.15.10:937][952]LogModuleManager: Shutting down and abandoning module OpenXREyeTracker (84)
-[2024.03.11-03.15.10:937][952]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
-[2024.03.11-03.15.10:937][952]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
-[2024.03.11-03.15.10:937][952]LogModuleManager: Shutting down and abandoning module ChunkDownloader (78)
-[2024.03.11-03.15.10:937][952]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2024.03.11-03.15.10:937][952]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
-[2024.03.11-03.15.10:938][952]LogModuleManager: Shutting down and abandoning module HTTP (67)
-[2024.03.11-03.15.10:938][952]LogHttp: Display: cleaning up 0 outstanding Http requests.
-[2024.03.11-03.15.10:968][952]LogModuleManager: Shutting down and abandoning module SSL (66)
-[2024.03.11-03.15.10:970][952]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module Media (61)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module MediaInfo (60)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (56)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module MLSDK (54)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module MagicLeap (52)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (50)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module NiagaraShader (48)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module ChaosCloth (46)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module VariantManagerContent (44)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module DatasmithContent (42)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module PixWinPlugin (40)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module AISupportModule (38)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (36)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (34)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module PlatformCrypto (32)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (30)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module OodleDataCompressionFormat (28)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module RenderCore (26)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2024.03.11-03.15.10:971][952]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2024.03.11-03.15.10:972][952]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2024.03.11-03.15.10:972][952]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2024.03.11-03.15.10:972][952]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2024.03.11-03.15.10:972][952]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2024.03.11-03.15.10:972][952]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2024.03.11-03.15.10:972][952]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2024.03.11-03.15.10:972][952]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2024.03.11-03.15.10:972][952]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2024.03.11-03.15.10:972][952]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2024.03.11-03.15.10:973][952]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2024.03.11-03.15.10:973][952]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
-[2024.03.11-03.15.10:981][952]LogD3D11RHI: Shutdown
-[2024.03.11-03.15.10:981][952]LogD3D11RHI: CleanupD3DDevice
-[2024.03.11-03.15.10:983][952]LogExit: Exiting.
-[2024.03.11-03.15.10:985][952]Log file closed, 03/11/24 11:15:10
+[2024.03.11-05.26.11:385][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'LevelPrototype_Training'.
+[2024.03.11-05.26.11:388][  0]LogAIModule: Creating AISystem for world LevelPrototype_Training
+[2024.03.11-05.26.11:388][  0]LogLoad: Game class is 'TPShooterGameMode_C'
+[2024.03.11-05.26.11:413][  0]LogWorld: Bringing World /Game/Maps/LevelPrototype_Training.LevelPrototype_Training up for play (max tick rate 0) at 2024.03.11-13.26.11
+[2024.03.11-05.26.11:420][  0]LogWorld: Bringing up level for play took: 0.029636
+[2024.03.11-05.26.11:426][  0]AnimBlueprintLog: Warning: SLOTNODE: 'Equip' in animation instance class ABP_TPShooter_C already exists. Remove duplicates from the animation graph for this class.
+[2024.03.11-05.26.11:446][  0]LogActor: Warning: BP_Weapon_Pistol_C /Game/Maps/LevelPrototype_Training.LevelPrototype_Training:PersistentLevel.BP_Weapon_Pistol_C_2147482435 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.03.11-05.26.11:447][  0]LogActor: Warning: BP_BaseWeapon_C /Game/Maps/LevelPrototype_Training.LevelPrototype_Training:PersistentLevel.BP_BaseWeapon_C_2147482433 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.03.11-05.26.11:447][  0]LogActor: Warning: BP_Weapon_AR_C /Game/Maps/LevelPrototype_Training.LevelPrototype_Training:PersistentLevel.BP_Weapon_AR_C_2147482431 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.03.11-05.26.11:447][  0]LogActor: Warning: BP_Weapon_Test1_C /Game/Maps/LevelPrototype_Training.LevelPrototype_Training:PersistentLevel.BP_Weapon_Test1_C_2147482429 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.03.11-05.26.11:451][  0]LogLoad: Took 0.456514 seconds to LoadMap(/Game/Maps/LevelPrototype_Training)
+[2024.03.11-05.26.11:456][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../MyTPShooter/Content/_Game/Assets/Fonts/headhumanboldcond.ufont' (82K)
+[2024.03.11-05.26.11:482][  0]LogSlate: Took 0.000755 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.03.11-05.26.11:498][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1).
+[2024.03.11-05.26.11:498][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+[2024.03.11-05.26.11:498][  0]LogPakFile: AllPaks IndexSizes: DirectoryHashSize=603308, PathHashSize=16, EntriesSize=131072, TotalSize=734396
+[2024.03.11-05.26.11:498][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
+[2024.03.11-05.26.11:498][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
+[2024.03.11-05.26.11:498][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2024.03.11-05.26.11:498][  0]LogLoad: (Engine Initialization) Total time: 2.53 seconds
+[2024.03.11-05.26.11:585][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.03.11-05.26.26:377][ 61]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../MyTPShooter/Content/_Game/Assets/Fonts/headhuman.ufont' (63K)
+[2024.03.11-05.26.56:279][289]Closing by request
+[2024.03.11-05.26.56:279][289]LogWindows: FPlatformMisc::RequestExit(0)
+[2024.03.11-05.26.56:279][289]LogWindows: FPlatformMisc::RequestExitWithStatus(0, 0)
+[2024.03.11-05.26.56:279][289]LogCore: Engine exit requested (reason: Win RequestExit)
+[2024.03.11-05.26.56:287][290]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.03.11-05.26.56:287][290]LogInit: Display: PreExit Game.
+[2024.03.11-05.26.56:289][290]LogWorld: BeginTearingDown for /Game/Maps/LevelPrototype_Training
+[2024.03.11-05.26.56:290][290]LogWorld: UWorld::CleanupWorld for LevelPrototype_Training, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-05.26.56:292][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-05.26.56:372][290]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.03.11-05.26.56:372][290]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.03.11-05.26.56:372][290]LogAudio: Display: Audio Device unregistered from world 'LevelPrototype_Training'.
+[2024.03.11-05.26.56:396][290]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.03.11-05.26.56:398][290]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.03.11-05.26.56:419][290]LogAudio: Display: Audio Device Manager Shutdown
+[2024.03.11-05.26.56:419][290]LogSlate: Request Window 'MyTPShooter (64-bit Development PCD3D_SM5) ' being destroyed
+[2024.03.11-05.26.56:422][290]LogSlate: Window 'MyTPShooter (64-bit Development PCD3D_SM5) ' being destroyed
+[2024.03.11-05.26.56:443][290]LogExit: Preparing to exit.
+[2024.03.11-05.26.56:443][290]LogMoviePlayer: Shutting down movie player
+[2024.03.11-05.26.56:446][290]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-05.26.56:453][290]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2024.03.11-05.26.56:453][290]LogExit: Game engine shut down
+[2024.03.11-05.26.56:486][290]LogExit: Object subsystem successfully closed.
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module AutomationWorker (358)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module Voice (356)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module AIModule (354)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module GameplayDebugger (353)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module NavigationSystem (351)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (348)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module WebMMedia (346)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module OpenXRInput (344)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module OculusMR (342)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (340)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (338)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (336)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (334)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module CharacterAI (332)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module PlanarCut (330)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module SessionServices (328)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module LiveCoding (326)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module LevelSequence (324)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (322)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module MovieScene (320)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (318)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (316)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module AudioMixerCore (315)
+[2024.03.11-05.26.56:509][290]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (312)
+[2024.03.11-05.26.56:510][290]LogModuleManager: Shutting down and abandoning module ProfilerService (310)
+[2024.03.11-05.26.56:687][290]LogModuleManager: Shutting down and abandoning module TaskGraph (308)
+[2024.03.11-05.26.56:687][290]LogModuleManager: Shutting down and abandoning module Synthesis (306)
+[2024.03.11-05.26.56:687][290]LogModuleManager: Shutting down and abandoning module TakeMovieScene (304)
+[2024.03.11-05.26.56:687][290]LogModuleManager: Shutting down and abandoning module LiveLinkMovieScene (302)
+[2024.03.11-05.26.56:687][290]LogModuleManager: Shutting down and abandoning module LiveLinkComponents (300)
+[2024.03.11-05.26.56:687][290]LogModuleManager: Shutting down and abandoning module LiveLink (298)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module OculusInput (296)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (294)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module GooglePAD (292)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module AudioCapture (286)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (285)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module AssetTags (282)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (280)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module AppleImageUtils (278)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module AndroidPermission (276)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (274)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module MediaCompositing (272)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module ImgMedia (270)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (268)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (266)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (264)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (262)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (260)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (258)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module MotoSynth (256)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module ChaosNiagara (254)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (252)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (250)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module EditableMesh (248)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module MeshConversion (246)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module DynamicMesh (244)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (242)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module GeometricObjects (240)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module BackChannel (238)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module AutomationUtils (236)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (234)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module GeometryCache (232)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module UObjectPlugin (230)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (228)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module TemplateSequence (226)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module MyTPShooter (224)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (222)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (220)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module SoundFields (218)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (216)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (212)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module ActorSequence (210)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module UdpMessaging (208)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module TcpMessaging (206)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (204)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (202)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (200)
+[2024.03.11-05.26.57:357][290]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (198)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (196)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (194)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (192)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (190)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (188)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module MagicLeapController (186)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (184)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module MagicLeapAR (182)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (180)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (178)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module Niagara (176)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module SignalProcessing (175)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module NiagaraCore (172)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module FacialAnimation (170)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module SignificanceManager (168)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module AnimationSharing (166)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module GameplayCameras (164)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (162)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module Paper2D (160)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (158)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (156)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (154)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module PacketHandler (152)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (150)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module MediaAssets (148)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module Overlay (146)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module FunctionalTesting (144)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module MessageLog (142)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module UMG (140)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module SlateReflector (138)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module Slate (136)
+[2024.03.11-05.26.57:358][290]LogModuleManager: Shutting down and abandoning module SlateCore (134)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module MRMesh (132)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module Messaging (130)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (128)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module XAudio2 (126)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module Networking (124)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module Core (122)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (120)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module ImageWrapper (116)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module D3D11RHI (114)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module PhysXCooking (108)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module Chaos (106)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (104)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (103)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module AVEncoder (102)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (98)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module SteamVRInput (96)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module SteamVR (94)
+[2024.03.11-05.26.57:359][290]LogHMD: Freeing OpenVRDLLHandle.
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module OpenXRHandTracking (92)
+[2024.03.11-05.26.57:359][290]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module OpenXRAR (90)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module AugmentedReality (89)
+[2024.03.11-05.26.57:359][290]LogModuleManager: Shutting down and abandoning module OpenXRHMD (86)
+[2024.03.11-05.26.57:361][290]LogModuleManager: Shutting down and abandoning module OpenXREyeTracker (84)
+[2024.03.11-05.26.57:361][290]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
+[2024.03.11-05.26.57:361][290]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2024.03.11-05.26.57:361][290]LogModuleManager: Shutting down and abandoning module ChunkDownloader (78)
+[2024.03.11-05.26.57:361][290]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2024.03.11-05.26.57:361][290]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2024.03.11-05.26.57:361][290]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2024.03.11-05.26.57:361][290]LogHttp: Display: cleaning up 0 outstanding Http requests.
+[2024.03.11-05.26.57:392][290]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2024.03.11-05.26.57:393][290]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module Media (61)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module MediaInfo (60)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (56)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module MLSDK (54)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module MagicLeap (52)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (50)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module NiagaraShader (48)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module ChaosCloth (46)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module VariantManagerContent (44)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module DatasmithContent (42)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module PixWinPlugin (40)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module AISupportModule (38)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (36)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (34)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module PlatformCrypto (32)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (30)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module OodleDataCompressionFormat (28)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2024.03.11-05.26.57:394][290]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2024.03.11-05.26.57:395][290]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2024.03.11-05.26.57:395][290]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2024.03.11-05.26.57:395][290]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2024.03.11-05.26.57:395][290]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2024.03.11-05.26.57:395][290]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2024.03.11-05.26.57:395][290]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2024.03.11-05.26.57:395][290]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2024.03.11-05.26.57:395][290]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2024.03.11-05.26.57:395][290]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2024.03.11-05.26.57:396][290]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2024.03.11-05.26.57:396][290]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2024.03.11-05.26.57:403][290]LogD3D11RHI: Shutdown
+[2024.03.11-05.26.57:403][290]LogD3D11RHI: CleanupD3DDevice
+[2024.03.11-05.26.57:405][290]LogExit: Exiting.
+[2024.03.11-05.26.57:413][290]Log file closed, 03/11/24 13:26:57
