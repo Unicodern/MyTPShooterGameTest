@@ -1,4 +1,4 @@
-![](showcase.gif)
+![](https://github.com/Unicodern/MyTPShooterGameTest/blob/master/showcase.gif)
 **This packaged game is used for learning Unreal Engine.**<br>
 Here is a tutorial of this game:<br>
 ![tutorial.png](tutorial.png "tutorial")<br>
