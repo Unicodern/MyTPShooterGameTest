@@ -1,3 +1,5 @@
-This packaged game is used for learning Unreal Engine.[ ][ ][Enter]
+This packaged game is used for learning Unreal Engine.[ ][ ][
+
+]
 Here is tutorial of this game:<bar>
 ![alt]( "tutorial")
