@@ -1,0 +1,26 @@
+MyTPShooter/Binaries/Win64/MyTPShooter.exe	2024-03-11T02:57:54.993Z
+MyTPShooter/Binaries/Win64/OpenImageDenoise.dll	2023-08-01T09:00:26.954Z
+MyTPShooter/Binaries/Win64/tbb12.dll	2023-08-01T09:00:26.957Z
+Engine/Extras/Redist/en-us/UE4PrereqSetup_x64.exe	2023-08-01T08:52:19.354Z
+Engine/Binaries/ThirdParty/Oculus/OVRPlugin/OVRPlugin/Win64/OVRPlugin.dll	2023-08-01T08:46:17.510Z
+Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll	2023-08-01T08:46:08.347Z
+Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll	2023-08-01T08:46:32.292Z
+Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.dll	2023-08-01T08:46:32.303Z
+Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.dll	2023-08-01T08:46:31.390Z
+Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CookingPROFILE_x64.dll	2023-08-01T08:46:31.215Z
+Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll	2023-08-01T08:46:31.172Z
+Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll	2023-08-01T08:46:26.433Z
+Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll	2023-08-01T08:46:28.134Z
+Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFrameworkPROFILE_x64.dll	2023-08-01T08:46:29.408Z
+Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/NvClothPROFILE_x64.dll	2023-08-01T08:46:29.486Z
+Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll	2023-08-01T08:46:17.513Z
+Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll	2023-08-01T08:46:42.012Z
+Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll	2023-08-01T08:46:42.013Z
+Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll	2023-08-01T08:46:16.822Z
+Engine/Binaries/ThirdParty/OpenXR/win64/openxr_loader.dll	2023-08-01T08:46:17.537Z
+Engine/Binaries/ThirdParty/OpenVR/OpenVRv1_5_17/Win64/openvr_api.dll	2023-08-01T08:46:17.529Z
+Engine/Binaries/ThirdParty/NVIDIA/GeForceNOW/Win64/GfnRuntimeSdk.dll	2023-08-01T08:46:16.818Z
+Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64/WinPixEventRuntime.dll	2023-08-01T08:46:42.200Z
+Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll	2023-08-01T08:46:43.379Z
+MyTPShooter/Content/Movies/Infinite Journeys.mp3	2024-03-06T10:48:09.499Z
+MyTPShooter.exe	2024-03-11T03:14:34.272Z
